@@ -1,0 +1,60 @@
+{
+  "recordedAt": "2026-10-04T04:28:58.029Z",
+  "environment": "Windows, Edge headless, next start, loopback; no CPU/network throttling; fresh contexts; one sample per viewport; CLS is the sum of observed shifts over this short load; not INP or field p75",
+  "samples": [
+    {
+      "device": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "browser": "154.0.4258.53",
+      "metrics": {
+        "lcp": 468,
+        "cls": 0.009221312888816552,
+        "longTasks": [],
+        "fcp": 288,
+        "domContentLoaded": 237.10000002384186,
+        "jsEncodedBytes": 275921,
+        "totalTransferBytes": 308219,
+        "requests": 27,
+        "externalRequests": []
+      },
+      "errors": [],
+      "securityHeaders": {
+        "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "x-frame-options": "DENY",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "device": "mobile-viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "browser": "154.0.4258.53",
+      "metrics": {
+        "lcp": 200,
+        "cls": 0.07287033661441245,
+        "longTasks": [],
+        "fcp": 68,
+        "domContentLoaded": 58.10000002384186,
+        "jsEncodedBytes": 275921,
+        "totalTransferBytes": 302698,
+        "requests": 22,
+        "externalRequests": []
+      },
+      "errors": [],
+      "securityHeaders": {
+        "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "x-frame-options": "DENY",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()"
+      }
+    }
+  ]
+}
